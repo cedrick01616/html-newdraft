@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>4IRL1NE</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Libre+Baskerville&family=Montserrat:wght@100;200;400;600;700&family=Oswald&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/3fde168df0.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="register.css">
+
+</head>
+<body>
+    <section class="header">
+        <nav>
+          <a href="index.html"><img src="/Assets/Images/logo.png" alt="logo-image"></a>
+          <div class="nav-links" id="navLinks">
+            <i style="font-size:24px" onclick="hideMenu()" class="fa">&#xf00d; </i>
+              <ul>
+                  <li> <a href="index.html">HOME</a></li>
+                  <li> <a href="flight.html">FLIGHT</a></li>
+                  <li> <a href="order.html">ORDER</a></li>
+                  <li> <a href="faq.html">FAQ</a></li>
+                  <li> <a href="sign-in.html">SIGN IN</a></li>
+                  <li> <a href="register.html">REGISTER</a></li>
+              </ul>
+          </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+
+    <div class="text-box">
+        <h1> Book Your Tickets Now!</h1>
+        <p>Discover multiple flight options & discounts to a variety of location world wide</p>
+        <a href="book.html" class="hero-btn">Book!</a>
+
+        <h1>Book Your Tickets Now!</h1>
+        <p>Discover multiple flight options & discounts to a variety of  locations worldwide</p>
+      <div class="container">
+        <nav>
+          <div class="icons"></div>
+            <ul>
+              <li class="flight"><a href="">
+              <i class="fa-solid fa-plane"></i>
+                Flight
+                </a>
+              </li>
+              <li class="hotel"><a href="">
+              <i class="fa-solid fa-house"></i> 
+              Hotel
+              </a>
+              </li>
+            </ul>
+            </nav>
+            
+          </div>
+       
+      <hr/>
+    
+      <section class="search-form">
+        <h2>Search for Flights</h2>
+              <form id="flight-search-form">
+              <label for="departure">Departure:</label>
+              <input type="text" id="departure" required>
+                
+              <label for="destination">Destination:</label>
+              <input type="text" id="destination" required>
+                
+              <label for="departure-date">Departure Date:</label>
+              <input type="date" id="departure-date" required>
+                
+              <label for="passengers">Passengers:</label>
+              <input type="number" id="passengers" min="1" required>
+                
+              <button type="submit">Search Flights</button>
+            </form>
+        </section>
+    
+        <section class="flight-results">
+          <div class="Search results">
+            <h2>Flight Search Results</h2>
+              <ul id="flight-list">
+                <!-- Flight results will be displayed here -->
+            </ul>
+              </div>
+          </div>
+      </section>
+
+
+</body>
+</html>
+
+
+
+  
